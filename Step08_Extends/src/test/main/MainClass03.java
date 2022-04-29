@@ -1,6 +1,7 @@
 package test.main;
 
 import test.mypac.HandPhone;
+
 import test.mypac.Phone;
 
 public class MainClass03 {
@@ -17,7 +18,6 @@ public class MainClass03 {
 		Object p3=p1;
 		
 		//자식 객체의 참조값은 부모 type 변수나 필드에 자연스럽게 담긴다.
-		//기능은 Object 로 갈수록 제한되는데,그릇은 Object 로 갈수록 커진다. 
-		
+				
 	}
 }
