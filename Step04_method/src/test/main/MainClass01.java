@@ -13,7 +13,7 @@ public class MainClass01 {
     	     int num=obj.getNumber();
     	     String greet=obj.getGreeting();
     	     Car car=obj.getCar();
-    	     
+              
     	     //. setNum() .setName() .useCar() 메소드 3개를 호출하는 code 를 작성해 보세요.
     	     obj.setNum(10);
     	     obj.setName("김구라");
