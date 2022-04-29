@@ -20,7 +20,7 @@ public class MainClass02 {
 
 /*
  *배열의 초기값
- *int i = new int[3];
+ *int[] i = new int[3];
  *이와같이 배열을 만들어 사용할 땐, 따로 값을 지정해주지 않는 이상 default값이 들어가게되는데
   int의 경우는 0
   char의 경우는 '0'
