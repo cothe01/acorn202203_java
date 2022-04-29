@@ -20,9 +20,10 @@ public class MainClass02 {
     	
     	//다형성 확인!!!
     	HandPhone p1=new HandPhone();
-    	//어떤 객체의 참조값을 부고 type 으로 받을 수 있다.
+    	//어떤 객체의 참조값을 부모 type 으로 받을 수 있다.
     	Phone p2=new HandPhone();
-    	Object p3=new HandPhone();
     	//사물함에는 HandPhone 이 들어있으나 사용설명서가 Object 여서 기능이 제한적.
+    	Object p3=new HandPhone();
+    	
     }
 }
