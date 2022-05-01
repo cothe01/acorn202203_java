@@ -14,7 +14,7 @@ public class MainClass04 {
             System.out.println("내려요");
          }
       };// class ? new 다음 단어*Remocon*가 class면 extends Weapon
-        //       자동으로                  interface면 implements Remocon
+        //                             interface면 implements Remocon(자동으로)
       
       useRemocon(r1);
       //지역변수 만들 필요없이 메소드 호출하면서 직접 new
