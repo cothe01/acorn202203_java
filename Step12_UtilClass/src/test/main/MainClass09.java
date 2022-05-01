@@ -13,14 +13,15 @@ import java.util.Set;
 
 public class MainClass09 {
     public static void main(String[] args) {
-		HashSet<Integer>set1=new HashSet<>();
+    	//정수값을 저장할수 있는 HashSet 객체
+		HashSet<Integer> set1=new HashSet<>();
 		set1.add(10);
 		set1.add(20);
 		set1.add(20);
 		set1.add(30);
 		set1.add(30);
 		
-		//무
+		//문자열을 저장할수 있는 HashSet 객체
 		Set<String>set2=new HashSet<>();
         set2.add("kim");
         set2.add("lee");

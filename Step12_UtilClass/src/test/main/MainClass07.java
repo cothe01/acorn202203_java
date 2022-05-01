@@ -27,7 +27,7 @@ public class MainClass07 {
        *  value 의 Generic 클래스가 Object 로 지정 되어 있기때문에
        *  리턴되는 Object type 을 원래 type 으로 casting 해야 한다. 
        */
-      // map1 에 담긴  번호는 num, 이름은 name, 남자인지 여부는 isMan 이라는 지역 변수에 담아 보세요.
+      // map1 에 담긴 번호는 num, 이름은 name, 남자인지 여부는 isMan 이라는 지역 변수에 담아 보세요.
       int num=(int)map1.get("num");
       String name=(String)map1.get("name");
       boolean isMan=(boolean)map1.get("isMan");

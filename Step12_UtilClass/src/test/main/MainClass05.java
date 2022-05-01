@@ -8,8 +8,9 @@ import test.mypac.Car;
 public class MainClass05 {
     public static void main(String[] args) {
 		//1. Car type 을 저장할 수 있는 ArrayList 객체를 생성해서
-    	//참조값을 List  인터페이스 type 지역변수 cars 에 담아 보세요.
+    	//참조값을 List 인터페이스 type 지역변수 cars 에 담아 보세요.
     	List <Car> cars=new ArrayList<>();
+    	
     	//2. Car 객체(3개)를 생성해서 List 객체에 저장해 보세요.
         cars.add(new Car ("카1"));
         cars.add(new Car ("카2"));
